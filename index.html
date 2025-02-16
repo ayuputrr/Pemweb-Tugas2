@@ -7,33 +7,39 @@
 </head>
 <body>
     <header>
-        <img src="konten/kkn.png" alt="Logo" width="100" height="100" style="display: block; margin-left: 0;">
+        <!-- Gambar logo ditampilkan, namun akan lebih baik jika diberikan atribut 'alt' yang lebih deskriptif -->
+        <img src="konten/kkn.png" alt="Logo KKN ITERA" width="100" height="100" style="display: block; margin-left: 0;">
     </header>
+    
     <nav>
-       
         <table>
             <tr>
+                <!-- Navigasi hanya memiliki dua menu, lebih baik ditambahkan lebih banyak sesuai kebutuhan -->
                 <td><a href="index.html">Beranda</a></td>
-                <td>&nbsp;|&nbsp;</td>
+                <td>&nbsp;|&nbsp;</td> <!-- Penggunaan &nbsp; untuk spasi kurang efektif, lebih baik gunakan CSS -->
                 <td><a href="berita.html">Berita</a></td>
-                <td>&nbsp;|&nbsp;</td>
-              
+                <td>&nbsp;|&nbsp;</td> <!-- Tidak ada menu setelah pemisah ini, sebaiknya dihapus atau ditambahkan menu lain -->
             </tr>
         </table>
-</nav>
+        <!-- Sebaiknya hindari penggunaan tabel untuk navigasi, gunakan elemen <ul> atau <div> dengan CSS untuk tata letak yang lebih baik -->
+    </nav>
+
     <main>
         <article>
             <h1>Selamat Datang di Website Berita KKN ITERA</h1>
-            <img src="konten/kkn25.jpg" alt="Logo" width="400" height="200">
+            <!-- Gambar memiliki atribut 'alt' yang kurang deskriptif, lebih baik diperjelas -->
+            <img src="konten/kkn25.jpg" alt="Mahasiswa KKN ITERA 2025" width="400" height="200">
             <p>ITERA 2025 telah melakukan pemberangkatan KKN di tahun 2025 dengan dihadiri oleh mahasiswa yang mengikuti KKN Tematik dan KKN PPM.</p>
+            <!-- Paragraf bisa diperjelas untuk memberikan informasi lebih detail terkait KKN -->
         </article>
     </main>
+
     <footer>
-       
-        <p><b>Informatika ITERA &copy; 2025</b></p>
-        <p>Kontak Person: <a href="mailto:https://www.itera.ac.id/">@itera.ac.id</a></p>
+        <!-- Footer mencantumkan hak cipta dengan tag <b>, lebih baik gunakan <strong> untuk semantik yang lebih baik -->
+        <p><strong>Informatika ITERA &copy; 2025</strong></p>
         
-      
+        <!-- Link kontak memiliki kesalahan pada atribut href, seharusnya menggunakan 'mailto:' tanpa URL -->
+        <p>Kontak Person: <a href="mailto:info@itera.ac.id">info@itera.ac.id</a></p>
     </footer>
 </body>
 </html>
